@@ -1,0 +1,5 @@
+﻿'SELECT car_id, make, yearmade, mileage, transmission,
+    price, description FROM cars
+    INNER JOIN makes USING (make_id)
+    WHERE yearmade > 2008
+    ORDER BY price'
