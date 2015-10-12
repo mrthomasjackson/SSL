@@ -1,5 +1,15 @@
 <?php
+$username="ssl";
+$password="ssl";
+$database = new PDO('mysql:host=localhost;dbname=ssl;port=8889', $username, $password);
 if ($_SERVER['REQUEST_METHOD']=='POST') {
+    //echo "post";
+    $fruitname=$_POST['fruitname']; //get POST values
+    $fruitcolor=$_POST['fruitcolor'];
+    $stmt=$database->prepare("INSERT INTO fruits (fruitname, fruitcolor) VALUES (:fruitname, :fruitcolor);");
+    $stmt->bindParam(':fruitname', $fruitname);
+    $stmt->bindParam(':fruitcolor', $fruitcolor);
+    $stmt->execute();
 }
 ?>
 <!DOCTYPE html>
@@ -55,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 
         .top-left {
             position: fixed;
-            top: 10%;
+            top: 20%;
             left: 10%;
             /* bring your own prefixes */
             transform: translate(-50%, -50%);
@@ -83,7 +93,6 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
         }
 
         #form-list-container {
-            display: none;
             position: fixed;
             top: 50%;
             left: 50%;
@@ -149,25 +158,24 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 <div id="heroContainer">
 
 
-    <div id="welcome" class="centered">
+    <div id="welcome" class="top-left">
         <div class="col-xs-12">
             <i class="white fa fa-apple fa-5x"> Fruits</i>
-            <button type="button" id="start" class="btn btn-block btn-lg">Start</button>
         </div>
     </div>
     <div id="form-list-container">
         <div id="form-container">
             <div class="col-xs-12">
-                <form class="form-inline">
+                <form class="form-inline" action="fruits.php" method="POST">
                     <div class="form-group">
-                        <label class="sr-only" for="fruitName">Fruit Name</label>
-                        <input type="text" class="form-control" id="fruitName" placeholder="Fruit Name" required>
+                        <label class="sr-only" for="fruitname">Fruit Name</label>
+                        <input type="text" class="form-control" name="fruitname" id="fruitname" placeholder="Fruit Name" required>
                     </div>
                     <div class="form-group">
-                        <label class="sr-only" for="fruitColor">Fruit Color</label>
-                        <input type="text" class="form-control" id="fruitColor" placeholder="Fruit Color" required>
+                        <label class="sr-only" for="fruitcolor">Fruit Color</label>
+                        <input type="text" class="form-control" name="fruitcolor" id="fruitcolor" placeholder="Fruit Color" required>
                     </div>
-                    <button id="submit" type="submit" class="btn btn-default">Fruitify!</button>
+                    <input id="submit" name="submit" value="Submit" type="submit" class="btn btn-default"/>
                 </form>
             </div>
         </div>
@@ -183,24 +191,16 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Apple</td>
-                        <td>Red</td>
-                        <td><a href="">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Banana</td>
-                        <td>Yellow</td>
-                        <td><a href="">Delete</a></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Orange</td>
-                        <td>Orange</td>
-                        <td><a href="">Delete</a></td>
-                    </tr>
+                    <?php
+                    $stmt = $database->prepare('SELECT * FROM fruits ORDER BY fruitname ASC');
+                    $stmt->execute();
+                    $result = $stmt->fetchall(PDO::FETCH_ASSOC);
+                    //The parameter means it will return an indexed array with each index containing an associative array of each row – do a var_dump($result); to see the array results
+                    //var_dump($result);
+                    foreach  ($result as $row) {
+                        echo '<tr><td>'.$row['id'].'</td><td>'.$row['fruitname'].'</td><td>'.$row['fruitcolor'].'</td><td> <a href="deletefruit.php?id='.$row['id'].'">Delete</a></td></tr>';
+                    }
+                    ?>
                     </tbody>
                 </table>
             </div>
@@ -213,15 +213,6 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 <script src="js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
-<script>
-    $(document).ready(function () {
-        $('#start').click(function () {
-            $("#welcome").addClass('top-left');
-            $('#welcome').removeClass('centered');
-            $('#start').hide("fast");
-            $("#form-list-container").show("slow");
-        })
-    })
-</script>
+
 </body>
 </html>
