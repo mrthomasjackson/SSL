@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551f83b1-1366-4711-a282-13ab429320f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/fruits.php" afterPath="$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/fruits.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3/activity3-1/activity3-1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3/activity3-1/fruitxml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PHP-Sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,64 +27,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fruits.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/fruits.php">
+      <file leaf-file-name="fruitxml.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week3/activity3-1/fruitxml.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.715942">
-              <caret line="199" column="48" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="48" />
+            <state vertical-scroll-proportion="-15.0">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
               <folding>
-                <marker date="1444496251000" expanded="true" signature="311:386" placeholder="INSERT INTO ..." />
-                <marker date="1444496251000" expanded="true" signature="1194:1385" placeholder="..." />
-                <marker date="1444496251000" expanded="false" signature="1399:4329" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="1424:1643" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="1663:1836" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="1859:2176" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="2196:2463" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="2480:2517" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="2534:2775" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="2798:2911" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="2942:3115" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="3131:3237" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="3253:3360" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="3376:3606" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="3644:3692" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="3720:3798" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="3827:3905" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="3938:3986" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="4004:4181" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="4196:4234" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="4245:4317" placeholder="{...}" />
-                <marker date="1444496251000" expanded="true" signature="4344:6733" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4369:6733" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4411:4528" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4443:4517" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4563:6730" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4597:5451" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4633:5436" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4710:5417" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="4755:4995" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5040:5285" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5485:6719" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5529:5557" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5558:6704" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5596:6685" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5624:5869" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5649:5840" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5897:6660" placeholder="..." />
-                <marker date="1444496251000" expanded="true" signature="5973:6016" placeholder="SELECT * FRO..fruits..." />
+                <marker date="1444780109000" expanded="true" signature="218:270" placeholder="SELECT fruit..fruits..." />
+                <marker date="1444780109000" expanded="true" signature="495:514" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deletefruit.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/deletefruit.php">
+      <file leaf-file-name="activity3-1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week3/activity3-1/activity3-1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-              <folding>
-                <marker date="1444495853000" expanded="true" signature="173:209" placeholder="DELETE FROM ..." />
-              </folding>
+            <state vertical-scroll-proportion="0.19565217">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,6 +106,9 @@
         <option value="$PROJECT_DIR$/Week2/jackson_thomas_project2/project_files/fruits.html" />
         <option value="$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/deletefruits.php" />
         <option value="$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/fruits.php" />
+        <option value="$PROJECT_DIR$/Week3/activity3-1.php" />
+        <option value="$PROJECT_DIR$/Week3/activity3-1/fruitxml.php" />
+        <option value="$PROJECT_DIR$/Week3/activity3-1/activity3-1.php" />
       </list>
     </option>
   </component>
@@ -193,7 +159,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,6 +176,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PHP-Sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Week3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity3-1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,8 +253,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -583,15 +567,16 @@
       <workItem from="1444317659838" duration="647000" />
       <workItem from="1444331005082" duration="148000" />
       <workItem from="1444335008811" duration="5764000" />
-      <workItem from="1444437959901" duration="3274000" />
+      <workItem from="1444437959901" duration="3404000" />
+      <workItem from="1444777992466" duration="2246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33812000" />
+    <option name="totallyTimeSpent" value="36188000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="701" y="-1417" width="1366" height="832" extended-state="6" />
+    <frame x="701" y="-1417" width="1366" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -610,7 +595,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21676737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21676737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -634,7 +619,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -643,20 +628,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week2/filesystem_ex_files/file_basics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/filesystem_ex_files/file_basics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week1/jackson_thomas_project_1b/project-files/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -986,61 +957,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/deletefruit.php">
+    <entry file="file://$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/fruits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state vertical-scroll-proportion="1.6956521">
+          <caret line="199" column="48" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="48" />
           <folding>
-            <marker date="1444495853000" expanded="true" signature="173:209" placeholder="DELETE FROM ..." />
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1444496251000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1444496251000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..fruits..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/fruits.php">
+    <entry file="file://$PROJECT_DIR$/Week2/jackson_thomas_project2b/project_files/deletefruit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.715942">
-          <caret line="199" column="48" selection-start-line="199" selection-start-column="48" selection-end-line="199" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.19565217">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding>
-            <marker date="1444496251000" expanded="true" signature="311:386" placeholder="INSERT INTO ..." />
-            <marker date="1444496251000" expanded="true" signature="1194:1385" placeholder="..." />
-            <marker date="1444496251000" expanded="false" signature="1399:4329" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="1424:1643" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="1663:1836" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="1859:2176" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="2196:2463" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="2480:2517" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="2534:2775" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="2798:2911" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="2942:3115" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="3131:3237" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="3253:3360" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="3376:3606" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="3644:3692" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="3720:3798" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="3827:3905" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="3938:3986" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="4004:4181" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="4196:4234" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="4245:4317" placeholder="{...}" />
-            <marker date="1444496251000" expanded="true" signature="4344:6733" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4369:6733" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4411:4528" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4443:4517" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4563:6730" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4597:5451" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4633:5436" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4710:5417" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="4755:4995" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5040:5285" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5485:6719" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5529:5557" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5558:6704" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5596:6685" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5624:5869" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5649:5840" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5897:6660" placeholder="..." />
-            <marker date="1444496251000" expanded="true" signature="5973:6016" placeholder="SELECT * FRO..fruits..." />
+            <marker date="1444495853000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3/activity3-1/fruitxml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <marker date="1444780109000" expanded="true" signature="218:270" placeholder="SELECT fruit..fruits..." />
+            <marker date="1444780109000" expanded="true" signature="495:514" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3/activity3-1/activity3-1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19565217">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
