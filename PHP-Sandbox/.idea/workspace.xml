@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551f83b1-1366-4711-a282-13ab429320f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3/activity3-1/activity3-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3/activity3-1/fruitxml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3/activity3-2/activity3-2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Week3/activity3-2/fruitjson.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PHP-Sandbox.iws" />
@@ -27,24 +27,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fruitxml.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week3/activity3-1/fruitxml.php">
+      <file leaf-file-name="fruitjson.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week3/activity3-2/fruitjson.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
-                <marker date="1444780109000" expanded="true" signature="218:270" placeholder="SELECT fruit..fruits..." />
-                <marker date="1444780109000" expanded="true" signature="495:514" placeholder="..." />
+                <marker date="1444795127000" expanded="true" signature="221:273" placeholder="SELECT fruit..fruits..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity3-1.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week3/activity3-1/activity3-1.php">
+      <file leaf-file-name="activity3-2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week3/activity3-2/activity3-2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19565217">
-              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.1521739">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -109,6 +108,8 @@
         <option value="$PROJECT_DIR$/Week3/activity3-1.php" />
         <option value="$PROJECT_DIR$/Week3/activity3-1/fruitxml.php" />
         <option value="$PROJECT_DIR$/Week3/activity3-1/activity3-1.php" />
+        <option value="$PROJECT_DIR$/Week3/activity3-2/activity3-2.php" />
+        <option value="$PROJECT_DIR$/Week3/activity3-2/fruitjson.php" />
       </list>
     </option>
   </component>
@@ -192,10 +193,6 @@
               <option name="myItemId" value="Week3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity3-1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,47 +204,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-Sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-Sandbox" />
+              <option name="myItemId" value="Week3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Week2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jackson_thomas_project2b" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-Sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP-Sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Week2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jackson_thomas_project2b" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project_files" />
+              <option name="myItemId" value="activity3-2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,16 +529,16 @@
       <workItem from="1444331005082" duration="148000" />
       <workItem from="1444335008811" duration="5764000" />
       <workItem from="1444437959901" duration="3404000" />
-      <workItem from="1444777992466" duration="2246000" />
+      <workItem from="1444777992466" duration="3967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36188000" />
+    <option name="totallyTimeSpent" value="37909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="701" y="-1417" width="1366" height="832" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -595,7 +556,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21676737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21676737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -628,20 +589,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week1/jackson_thomas_project_1b/project-files/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1/jackson_thomas_project_1b/project-files/newUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week1/jackson_thomas_project_1b/project-files/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -979,21 +926,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3/activity3-1/fruitxml.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <marker date="1444780109000" expanded="true" signature="218:270" placeholder="SELECT fruit..fruits..." />
-            <marker date="1444780109000" expanded="true" signature="495:514" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week3/activity3-1/activity3-1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19565217">
           <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3/activity3-1/fruitxml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <marker date="1444780109000" expanded="true" signature="-1:-1" placeholder="SELECT fruit..fruits..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3/activity3-2/fruitjson.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <marker date="1444795127000" expanded="true" signature="221:273" placeholder="SELECT fruit..fruits..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3/activity3-2/activity3-2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1521739">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="41" />
           <folding />
         </state>
       </provider>
