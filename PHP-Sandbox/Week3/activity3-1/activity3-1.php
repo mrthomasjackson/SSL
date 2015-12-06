@@ -7,7 +7,7 @@
  */
 $contents = simplexml_load_file("http://localhost:8888/activity3-1/fruitxml.php");
 
-//var_dump($contents);
+var_dump($contents);
 
 foreach($contents-> fruit as $fruit) {
 
